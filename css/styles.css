@@ -34,3 +34,9 @@ h3 {
      bottom: 250px;
 }
 
+hr {
+    border-style: dotted none none;
+    border-width: 8px;
+    border-color: #9dd8c8;
+    width: 4%;
+  }
