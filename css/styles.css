@@ -33,6 +33,22 @@ h3 {
     padding-top: 100px;
 }
 
+/*
+.middle-container {
+
+}
+
+.bottom-container {
+
+} */
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
 .top-cloud {
     position: absolute;
     right: 300px;
@@ -45,13 +61,25 @@ h3 {
      bottom: 250px;
 }
 
+.web-dev-img {
+    float: left;
+    margin-right: 30px;
+}
+
+.martial-arts-img {
+    float: left;
+    margin-right: 30px;
+}
+
 hr {
     border-style: dotted none none;
     border-width: 8px;
     border-color: #bdb2b2;
     width: 5%;
+    margin: 30px auto;
   }
 
-  a {
+   
+a {
       color: #60a9a6;
   }
