@@ -1,25 +1,22 @@
-body {
+body { 
+    font-family: 'Muli', sans-serif;
     margin: 0;
     text-align: center;
-    font-family: 'Muli', sans-serif;
 }
 
 h1 {
+    color: #f09595;
+    font-family: 'Sacramento', cursive;
     font-size: 5rem;
     margin: 50px auto 0 auto;
-    font-family: 'Sacramento', cursive;
-    color: #f09595;
-}
-
-.web-dev {
-    font-weight: normal;
-    font-family: 'Nunito', sans-serif;
+    
 }
 
 h2 {
+    color: #f09595;
     font-family: 'Libre Baskerville', serif;
     font-size: 1.4rem;
-    color: #f09595;
+    margin-top: 30px;
 }
 
 h3 {
@@ -27,28 +24,18 @@ h3 {
     color: #60a9a6;
 }
 
+/**********Top container(header)***********/
+
 .top-container {
-    background-color: #ffe8cf ;
+    background-color: #ffe8cf;
     position: relative;
     padding-top: 100px;
 }
 
-/*
-.middle-container {
-
+.web-dev {
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
 }
-
-.bottom-container {
-
-} */
-
-.skill-row {
-    width: 50%;
-    margin: 100px auto;
-    text-align: left;
-    line-height: 2;
-}
-
 .top-cloud {
     position: absolute;
     right: 300px;
@@ -61,15 +48,45 @@ h3 {
      bottom: 250px;
 }
 
+/***********Middle container (main content)**********/
+
+.middle-container {
+    Margin-bottom: 30px;
+}
+
+.profile {
+  width: 50%;
+  margin: 40px auto;
+  text-align: center;
+  line-height: 2;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+
 .web-dev-img {
     float: left;
     margin-right: 30px;
 }
 
 .martial-arts-img {
-    float: left;
-    margin-right: 30px;
+    float: right;
+    margin-left: 30px;
 }
+
+/************Bottom container (footer)***************/
+
+.bottom-container {
+    background-color: #ffe8cf;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+/************Horizontal rule and a tags************/
 
 hr {
     border-style: dotted none none;
@@ -79,7 +96,6 @@ hr {
     margin: 30px auto;
   }
 
-   
 a {
       color: #60a9a6;
   }
