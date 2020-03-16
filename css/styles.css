@@ -20,16 +20,16 @@ h2 {
 }
 
 h3 {
+      color: #60a9a6;
     font-family: 'Libre Baskerville', serif;
-    color: #60a9a6;
 }
 
 /**********Top container(header)***********/
 
 .top-container {
     background-color: #ffe8cf;
+     padding-top: 100px;
     position: relative;
-    padding-top: 100px;
 }
 
 .web-dev {
@@ -43,29 +43,33 @@ h3 {
 }
 
 .bottom-cloud {
-     position: absolute;
-     left: 250px;
-     bottom: 250px;
+    position: absolute;
+    bottom: 250px;
+    left: 250px;
 }
 
 /***********Middle container (main content)**********/
 
 .middle-container {
-    Margin-bottom: 30px;
+   Margin-bottom: 30px;
 }
 
 .profile {
-  width: 50%;
-  margin: 40px auto;
-  text-align: center;
-  line-height: 2;
+    line-height: 2;  
+    margin: 40px auto;
+    text-align: center;
+    width: 50%;
+}
+
+.profile-img {
+    width: 32%;
 }
 
 .skill-row {
-    width: 50%;
+    line-height: 2;
     margin: 50px auto;
     text-align: left;
-    line-height: 2;
+    width: 50%;
 }
 
 .web-dev-img {
@@ -78,24 +82,31 @@ h3 {
     margin-left: 30px;
 }
 
+
 /************Bottom container (footer)***************/
 
 .bottom-container {
-    background-color: #ffe8cf;
+    background-color: #ffd3b6;
     padding-top: 20px;
     padding-bottom: 10px;
 }
 
+.flaticon {
+    color: #888888;
+    font-size: 12px;
+}
 /************Horizontal rule and a tags************/
 
 hr {
+    border-color: #bdb2b2;
     border-style: dotted none none;
     border-width: 8px;
-    border-color: #bdb2b2;
-    width: 5%;
     margin: 30px auto;
+    width: 5%;
+   
   }
 
 a {
-      color: #60a9a6;
+    color: #14868c;
+    text-decoration: none;
   }
