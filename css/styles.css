@@ -45,7 +45,7 @@ a {
 }
 
 a:hover {
-    color: #ffffff; 
+    color: #9b8f8f; 
     text-decoration: underline;
 }
 
@@ -53,7 +53,7 @@ a:hover {
 
 .top-container {
     background-color: #ffe8cf;
-    padding-top: 100px;
+    padding: 130px 0;
     position: relative;
 }
 
@@ -61,6 +61,7 @@ a:hover {
     font-family: 'Nunito', sans-serif;
     font-weight: normal;
     margin-top: 5px;
+    margin-bottom: 0;
 }
 .top-cloud {
     position: absolute;
@@ -70,13 +71,13 @@ a:hover {
 
 .bottom-cloud {
     position: absolute;
-    bottom: 250px;
+    bottom: 50px;
     left: 150px;
 }
 
 /***********Middle container (main content)**********/
 .middle-container {
-    margin: 50px 0;
+    margin-bottom: 2rem;
 }
 
 .intro {
@@ -135,44 +136,6 @@ a:hover {
     text-decoration: none;
 }
 
-/*
-.btn {
-    background: #9DC6A7;
-    background-image: -webkit-linear-gradient(top, #9DC6A7, #81A38A);
-    background-image: -moz-linear-gradient(top, #9DC6A7, #81A38A);
-    background-image: -ms-linear-gradient(top, #9DC6A7, #81A38A);
-    background-image: -o-linear-gradient(top, #9DC6A7, #81A38A);
-    background-image: linear-gradient(to bottom, #9DC6A7, #81A38A);
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    color: #FFFFFF;
-    font-family: Open Sans;
-    font-size: 20px;
-    font-weight: 300;
-    padding: 5px;
-    box-shadow: -3px 8px 15px 0px #685D5D;
-    -webkit-box-shadow: -3px 8px 15px 0px #685D5D;
-    -moz-box-shadow: -3px 8px 15px 0px #685D5D;
-    text-shadow: 1px 1px 21px #423f3f;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
-}
-    
-.btn:hover {
-    background: #F09595;
-    background-image: -webkit-linear-gradient(top, #F09595, #DD7979);
-    background-image: -moz-linear-gradient(top, #F09595, #DD7979);
-    background-image: -ms-linear-gradient(top, #F09595, #DD7979);
-    background-image: -o-linear-gradient(top, #F09595, #DD7979);
-    background-image: linear-gradient(to bottom, #F09595, #DD7979);
-    text-decoration: none;
-}*/
-
-/************Bottom container (footer)***************/
-
 .bottom-container {
     background-color: #ffd3b6;
     padding: 20px 0 10px;
@@ -186,7 +149,7 @@ a:hover {
 
 .flaticon {
     color: #9b8f8f;
-    font-size: 11px;
+    font-size: 0.65rem;
     margin: 0;
 }
 
