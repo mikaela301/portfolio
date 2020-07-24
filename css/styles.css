@@ -52,7 +52,7 @@ a:hover {
 /**********Top container(header)***********/
 
 .top-container {
-    background-color: #ffe8cf;
+    background-color: #ffd9d9;
     padding: 130px 0;
     position: relative;
 }
@@ -67,12 +67,14 @@ a:hover {
     position: absolute;
     right: 200px;
     top: 40px;
+    width: 15%;
 }
 
 .bottom-cloud {
     position: absolute;
     bottom: 50px;
     left: 150px;
+    width: 15%;
 }
 
 /***********Middle container (main content)**********/
@@ -116,11 +118,11 @@ a:hover {
     border-radius: 12px;
     color: #4E5450;
     font-family: 'Muli', sans-serif;
-    font-size: 22px;
+    font-size: 23px;
     font-weight: 500;
     padding: 7px;
     background-color: #FFFFFF;
-    border: solid #9DC6A7 4px;
+    border: solid #c2e5ca 2px;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
@@ -128,8 +130,8 @@ a:hover {
 }
     
 .btn:hover {
-    background: #9DC6A7;
-    border: solid #9DC6A7 4px;
+    background: #c2e5ca ;
+    border: solid #c2e5ca  2px;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
     border-radius: 12px;
@@ -137,7 +139,7 @@ a:hover {
 }
 
 .bottom-container {
-    background-color: #ffd3b6;
+    background-color: #ffd9d9;
     padding: 20px 0 10px;
 }
 
